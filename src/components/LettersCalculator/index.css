@@ -1,0 +1,63 @@
+/* Write your code here. */
+.lc-bg {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .lc-bg {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}
+.lc-img {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+}
+.lc-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lc-main-heading {
+  color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .lc-main-heading {
+    text-align: left;
+  }
+}
+
+.lc-search-header {
+  font-size: 16px;
+  color: #e4e7eb;
+  margin-bottom: 4px;
+}
+.lc-input-search {
+  color: #e4e7eb;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  max-width: 700px;
+}
+.lc-letter-count {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #1d976c;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 60%;
+  max-width: 400px;
+}
